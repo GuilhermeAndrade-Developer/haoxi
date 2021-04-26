@@ -1,0 +1,110 @@
+:root {
+    --primary-color: #0093DD;
+    --secondary-color: #4A4A4A;
+    --tertiary-color: #027EBC;   
+    --quaternary-color: #fff;   
+    --quintenary-color: #00000029 ;
+    --sixth-color: #3498DB;
+    --seventh-color: #ddd;
+    --eighth-color: #4F3729;
+    --nineth-color: #495057;
+    --tenth-color: #F2F2F4;
+    --eleventh-color: #E5F6FF;
+    --twelfth-color: #989898;
+    --thirteenth-color: #027EBC2B;
+    --fourteenth-color: #98B400;
+    --fifteenth-color: #E93538;
+    --sixteenth-color: #8B8B8B; 
+    --seventeenth-color: #E9353829;
+
+    --font-title: 14px;
+}
+
+
+
+
+@media(max-width: 768px){
+
+    /* Fonts */
+    .f_size_30{
+        font-size: 18px;
+    }
+    .f_size_40{
+        font-size: 20px;
+    }
+    /* Fonts */
+    .flex_pai_icon_pos_banner{
+        flex-direction: column;
+    }
+    .dropdown-content{
+        width: 100%;
+    }
+    .mt10mob_pos_banner{
+        margin-top: 10px;
+    }
+    .mt20mob{
+        margin-top: 20px;
+    }
+    .mt50mob{
+        margin-top: 50px;
+    }
+
+    /* Carousel */
+    .owl-prev {
+        left: 0px;
+    }
+    
+    .owl-next {
+        right: 0px;
+    }
+    .owl-prev i, .owl-next i {
+        color: var(--quaternary-color);
+        font-size: 30px !important;
+    }
+    .owl-prev i:hover, 
+    .owl-next i:hover {
+	    color: var(--quaternary-color);
+    }
+    /* Carousel */
+
+    .grid_pai_blog{
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: none;
+    }
+    .flex_inputs_forms{
+        flex-direction: column;
+        align-items: initial;
+    }
+    .flex_pai_mensagem{
+        flex-direction: column;
+    }
+    .alinha_rodape_centro{
+        text-align: center;
+    }
+    .w_100px{
+        width: 100px;
+    }
+    .bg-opacity-form{
+        width: 100%;
+        padding: 40px 0px 40px 0px;
+    }
+    .grid-categories-products{
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: none;
+    }
+    .grid_novidades{
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: none;
+    }
+    .grid-products-services{
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: none;
+    }
+    .grid-types-products{
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: none;
+    }
+   
+
+
+}
